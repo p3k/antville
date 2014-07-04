@@ -419,8 +419,8 @@ Site.prototype.main_js_action = function() {
   res.contentType = 'text/javascript';
   res.dependsOn(String(Root.VERSION));
   res.digest();
-  this.renderSkin('$Site#include', {href: '//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'});
-  this.renderSkin('$Site#include', {href: root.getStaticUrl('jquery.cookie.js')});
+  this.renderSkin('$Site#include', {href: root.getStaticUrl('bower_components/jquery/jquery.min.js')});
+  this.renderSkin('$Site#include', {href: root.getStaticUrl('bower_components/jquery.cookie/jquery.cookie.js')});
   this.renderSkin('$Site#include', {href: root.getStaticUrl('antville.js?v=' + Root.VERSION)});
   this.renderSkin('$Site#include', {href: this.href('user.js')});
   return;

@@ -1,0 +1,25 @@
+{
+  "name": "antville",
+  "version": "1.5.0",
+  "authors": [
+    "Tobi Schäfer <interface@p3k.org>"
+  ],
+  "description": "Antville is an open source project aimed at the development of a simple site hosting system with many advanced features.",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://code.google.com/p/antville",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "codemirror": "~4.3.0",
+    "jquery.cookie": "~1.4.1",
+    "jquery": "1.8"
+  }
+}
